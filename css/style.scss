@@ -1,0 +1,175 @@
+// imports
+@import "global";
+
+//// global doc tag styles ////
+a {
+	color: rgb(0,0,238);
+}
+
+//// class styles ////
+.overlay {
+	display: none;
+	z-index: 1100;
+}
+.current {
+	color: inherit;
+	font-size: 1.0em !important;
+}
+
+.current:hover {
+	text-decoration: none !important;
+}
+
+.inlineList li {
+	display: inline-block;
+	button {
+		vertical-align: top;
+	}
+}
+
+//// header styles ////
+
+
+//// main content styles ////
+#table_of_contents ul {
+	position: -moz-sticky;
+	position: -o-sticky;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 30px !important;
+}
+
+.toc > ul {
+	margin-top: 16px;
+	
+	position: -moz-sticky;
+	position: -o-sticky;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 30px !important;
+}
+
+main {
+
+	// getting started page
+	figure {
+		img {
+			display: inline-block;
+			height: 150px;
+			width: auto;
+		}
+		.imgSelected {
+			position: fixed;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			width: auto;
+			height: auto;
+			z-index: 1101;
+		}
+		figurecaption {
+			display: block;
+			font-size: .9em;
+		}
+	}
+	// bootstrap basics page
+	.steps {
+	 .inlineList li {
+			margin: 0 20px;
+			font-size: 1.3em;
+			font-weight: bold;
+		}
+		input {
+			font-size: 1.2em;
+			padding: 5px 0;
+		}
+		.changeResult {
+			font-size: 1.5em;
+			padding: 10px;
+			//border: 2px solid #000;
+		}
+	}
+	
+	.resources {
+		.inlineBlock {
+			width: 50%;
+			vertical-align: top;
+		}
+		img {
+			width: 75%;
+			height: auto;
+		}
+		ul {
+			//list-style-type: none;
+			li {
+				margin-left: 15px;
+			}
+		}
+
+	}
+}
+
+
+//// footer styles ////
+
+
+
+//// animation ////
+
+
+// define animations
+@keyframes fadeIn {
+	from 	{ opacity: 0;}
+	to		{ opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn {
+	from 	{ opacity: 0;}
+	to		{ opacity: 1;}
+}
+
+@keyframes fadeOut {
+	from 	{ opacity: 1;}
+	to		{ opacity: 0;}
+}
+
+@keyframes exitToLeft {
+	from 	{ transform: translateX(0); opacity: 1;}
+	to		{ transform: translateX(-25%); opacity: .5;}
+}
+
+@keyframes enterFromRight {
+	from 	{ transform: translateX(25%); opacity: 0;}
+	to		{ transform: translateX(0); opacity: 1;}
+}
+
+/*
+// set animations for enter & leave states
+main[ui-view].ng-enter {
+	animation: fadeIn .5s ease-out;
+	z-index: 900;
+}
+
+main[ui-view].ng-leave {
+	animation: fadeOut .5s ease-out;
+	z-index: 1000;
+}
+*/
+
+/*
+main[ui-view].ng-enter, main[ui-view].ng-leave {
+	transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+}
+
+main[ui-view].ng-enter, main[ui-view].ng-leave-active {
+	opacity: 0;
+}
+
+main[ui-view].ng-enter-active, main[ui-view].ng-leave {
+	opacity: 1;
+}
+*/
