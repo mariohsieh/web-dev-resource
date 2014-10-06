@@ -4,7 +4,7 @@ angular.module("allDirectives", [])
 		
 		function link(scope, elem, attr) {
 
-			scope.menu = ["Home", "General", "Terminal"];
+			scope.menu = ["Home", "General", "Terminal", "Programming", "Git", "Database", "MVC", "Links"];
 			
 		}
 		

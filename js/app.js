@@ -1,4 +1,4 @@
-angular.module("webDevTermsApp", [
+angular.module("webDevResourceApp", [
 	"ui.router",
 	"allControllers",
 	"allDirectives"
