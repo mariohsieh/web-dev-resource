@@ -11,20 +11,17 @@ angular.module("allDirectives", [])
 					title: "Glossary",
 					state: "glossary"
 				},{
-					title: "Terminal Commands",
+					title: "Terminal",
 					state: "terminal"
 				},{
-					title: "Git Commands",
+					title: "Git",
 					state: "git",
 				},{
 					title: "Ruby",
 					state: "ruby"
 				},{
 					title: "JavaScript",
-					state: "javaScript"
-				},{
-					title: "Links",
-					state: "links"
+					state: "javascript"
 				}
 			];
 			

@@ -16,14 +16,22 @@ angular.module("webDevResourceApp", [
 			})
 			.state('glossary', {
 				url: '/glossary',
-				template: 'Glossary page'
-				//templateUrl: 'views/glossary.html'
+				templateUrl: 'views/glossary.html'
 			})			
 			.state('terminal', {
 				url: '/terminal',
-				template: 'terminal page'
-				//templateUrl: 'views/terminal.html'
-			});
-			
-			
+				templateUrl: 'views/terminal.html'
+			})
+			.state('git', {
+				url: '/git',
+				templateUrl: 'views/git.html'
+			})
+			.state('ruby', {
+				url: '/ruby',
+				templateUrl: 'views/ruby.html'
+			})
+			.state('javascript', {
+				url: '/javascript',
+				templateUrl: 'views/javascript.html'
+			});						
 	});
