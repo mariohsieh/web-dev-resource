@@ -50,8 +50,6 @@ a {
 }
 
 main {
-
-	// getting started page
 	figure {
 		img {
 			display: inline-block;
@@ -73,7 +71,6 @@ main {
 			font-size: .9em;
 		}
 	}
-	// bootstrap basics page
 	.steps {
 	 .inlineList li {
 			margin: 0 20px;
@@ -90,7 +87,6 @@ main {
 			//border: 2px solid #000;
 		}
 	}
-	
 	.resources {
 		.inlineBlock {
 			width: 50%;
@@ -106,7 +102,6 @@ main {
 				margin-left: 15px;
 			}
 		}
-
 	}
 }
 
@@ -116,8 +111,6 @@ main {
 
 
 //// animation ////
-
-
 // define animations
 @keyframes fadeIn {
 	from 	{ opacity: 0;}
@@ -146,30 +139,50 @@ main {
 
 /*
 // set animations for enter & leave states
-main[ui-view].ng-enter {
+[ui-view].ng-enter {
 	animation: fadeIn .5s ease-out;
 	z-index: 900;
 }
 
-main[ui-view].ng-leave {
+[ui-view].ng-leave {
 	animation: fadeOut .5s ease-out;
 	z-index: 1000;
 }
 */
 
-/*
-main[ui-view].ng-enter, main[ui-view].ng-leave {
+
+.ng-enter {
+	opacity: 0;
 	transition: all 0.5s ease-in;
 	-moz-transition: all 0.5s ease-in;
 	-o-transition: all 0.5s ease-in;
 	-webkit-transition: all 0.5s ease-in;
 }
 
-main[ui-view].ng-enter, main[ui-view].ng-leave-active {
+.ng-enter-active {
+	opacity: 1;
+}
+
+.ng-enter-stagger {
+	transition-delay: 0.1s;
+}
+
+/*
+.ng-enter {
+	transition: 0.5s;
 	opacity: 0;
 }
 
-main[ui-view].ng-enter-active, main[ui-view].ng-leave {
+.ng-enter-active {
 	opacity: 1;
+}	
+
+.ng-leave {
+	//transition: 0.5s;
+	opacity: 1;
+}
+
+.ng-leave-active {
+	opacity: 0;
 }
 */

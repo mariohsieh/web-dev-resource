@@ -4,7 +4,29 @@ angular.module("allDirectives", [])
 		
 		function link(scope, elem, attr) {
 
-			scope.menu = ["Home", "General", "Terminal", "Programming", "Git", "Database", "MVC", "Links"];
+			scope.menu = [
+				{ title: "Home",
+					state: "home"
+				}, {
+					title: "Glossary",
+					state: "glossary"
+				},{
+					title: "Terminal Commands",
+					state: "terminal"
+				},{
+					title: "Git Commands",
+					state: "git",
+				},{
+					title: "Ruby",
+					state: "ruby"
+				},{
+					title: "JavaScript",
+					state: "javaScript"
+				},{
+					title: "Links",
+					state: "links"
+				}
+			];
 			
 		}
 		
@@ -16,7 +38,7 @@ angular.module("allDirectives", [])
 				"<aside  class='toc page-list' id='table_of_contents'>",
 					"<ul>",
 						"<li ng-repeat='item in menu'>",
-							"<a ui-sref={{item}} ng-click='changeState(item)' ng-class='{current: isCurrent(item)}'>{{item}}</a>",
+							"<a ui-sref={{item.state}} ng-click='changeState(item.state)' ng-class='{current: isCurrent(item.state)}'>{{item.title}}</a>",
 						"</li>",
 					"</ul>",
 				"</aside>"

@@ -4,13 +4,17 @@ angular.module("allControllers", [])
 		
 		function initial() {
 			function getState(addy) {
-				console.log(addy);
+				//console.log(addy);
 				switch(addy) {
 					case '':
 					case '/':
-						return 'home';
+						return 'Home';
+					case '/glossary':
+						return 'Glossary';
+					case '/terminal':
+						return 'Terminal';
 					default:
-						return addy.slice(1);
+						return addy;
 				}
 			}
 			
@@ -28,7 +32,6 @@ angular.module("allControllers", [])
 			return $scope.currentState === state;
 		}
 		
-		// run on initial app load
 		initial();
 		
 	});

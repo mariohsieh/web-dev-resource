@@ -1,6 +1,5 @@
 angular.module("webDevResourceApp", [
 	"ui.router",
-	"ngAnimate",
 	"allControllers",
 	"allDirectives"
 	])
@@ -10,19 +9,19 @@ angular.module("webDevResourceApp", [
 		$urlRouterProvider.otherwise('/');
 		
 		$stateProvider
-			.state('home', {
+			.state('Home', {
 				url: '/',
 				templateUrl: 'views/home.html'
 			})
-			.state('glossary', {
+			.state('Glossary', {
 				url: '/glossary',
 				template: 'Glossary page'
 				//templateUrl: 'views/glossary.html'
 			})			
-			.state('terminal', {
+			.state('Terminal', {
 				url: '/terminal',
 				template: 'terminal page'
-				//templateUrl: 'views/terminal.html'
+				//templateUrl: 'views/home.html'
 			});
 			
 			

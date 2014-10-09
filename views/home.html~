@@ -1,4 +1,4 @@
-<h1 class="doc_title">Welcome to the RailsBridge Resource!</h1>
+<h1 class="doc_title">Welcome!</h1>
 
 <div class="doc">
 	<section class="goals">
@@ -6,7 +6,7 @@
 		<ul>
 			<li>
 				<div class="message">
-					<p>This resource aims to provide students with a one-stop shop for basic web development questions</p>
+					<p>This resource aims to provide students with a one-stop shop for web development questions</p>
 				</div>
 			</li>
 		</ul>
