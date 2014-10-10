@@ -1,10 +1,10 @@
 angular.module("allControllers", [])
 
-	.controller("mainCtrl", function($scope, $state, $location) {
+	.controller("mainCtrl", ["$scope", "$state", "$location", function($scope, $state, $location) {
 		
 		function initial() {
 			function getState(addy) {
-				console.log(addy);
+				//console.log(addy);
 				switch(addy) {
 					case '':
 					case '/':
@@ -16,10 +16,11 @@ angular.module("allControllers", [])
 			
 			// get current path
 			$scope.currentState = getState($location.path());
-			console.log($scope.currentState);
+			//console.log($scope.currentState);
 		}
 
-		// scope functions //
+		//// scope functions ////
+		
 		$scope.changeState = function(state) {
 			$scope.currentState = state;
 			window.scrollTo(0,0);
@@ -28,8 +29,9 @@ angular.module("allControllers", [])
 			return $scope.currentState === state;
 		}
 		
+			
 		// run on initial app load
 		initial();
 		
-	});
+	}]);
 	

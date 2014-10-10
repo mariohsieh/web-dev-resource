@@ -5,7 +5,8 @@ angular.module("allDirectives", [])
 		function link(scope, elem, attr) {
 
 			scope.menu = [
-				{ title: "Home",
+				{
+					title: "Home",
 					state: "home"
 				}, {
 					title: "Glossary",
@@ -15,13 +16,16 @@ angular.module("allDirectives", [])
 					state: "terminal"
 				},{
 					title: "Git",
-					state: "git",
+					state: "git"
 				},{
 					title: "Ruby",
 					state: "ruby"
 				},{
 					title: "JavaScript",
 					state: "javascript"
+				},{
+					title: "FAQ",
+					state: "faq"
 				}
 			];
 			
