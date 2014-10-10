@@ -1,9 +1,9 @@
-<h1 class="doc_title">Glossary</h1>
+<h1 class="doc_title">Glossary <input class="floatRight" type="search" placeholder="Search" ng-model="displayList"></h1>
 
 <div class="doc">
 	<br>
 	<ul>
-		<li ng-repeat="gloss in glossary">
+		<li ng-repeat="gloss in glossary | filter: displayList">
 			<h3>{{gloss.term}}</h3>
 			<blockquote>
 				<p ng-bind-html="gloss.def">{{gloss.def}}</p>	

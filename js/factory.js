@@ -10,7 +10,7 @@ angular.module("allFactories", [])
 				alias: ["web site", "site"]
 			},{
 				term: "web application",
-				def:	"A type of software that runs in a web browser.&nbsp;&nbsp;More complex than a website, a web application may contain a database component which can store information and be accessed by the user.",
+				def:	"Web applications are software programs that run in a web browser.&nbsp;&nbsp;More complex than a website, they may contain a database component which can store information and be accessed by the user.",
 				alias: ["web app", "app"]
 			},{
 				term: "mobile application",
@@ -21,7 +21,7 @@ angular.module("allFactories", [])
 				def:	"A program to write and edit plain text files.&nbsp;&nbsp;atom.io and sublime are popular text editors used in the tech industry."
 			},{
 				term: "terminal",
-				def:	"A program that interacts with the computer operating system through a single command line.&nbsp;&nbsp;Please see the terminal section for a list of commands.",
+				def:	"A program that interacts with the computer operating system through a single command line.&nbsp;&nbsp;You can create, edit, and delete files and folders, as well as install and open applications too.  &nbsp;&nbsp;Please see the terminal section for a list of commands.",
 				alias: ["command line", "command prompt", "console"]
 			},{
 				term: "version control",
