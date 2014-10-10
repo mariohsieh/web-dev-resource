@@ -61,10 +61,12 @@ a {
 
 main .doc {
   max-width: 60em;
-  margin-left: 2em;
+  margin-left: 1.5em;
   min-height: 25em; }
-  main .doc .goals li {
-    list-style: none; }
+  main .doc ul {
+    padding-left: .25em; }
+    main .doc ul li {
+      list-style: none; }
 
 @keyframes fadeIn {
   from {

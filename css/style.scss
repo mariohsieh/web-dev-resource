@@ -53,10 +53,13 @@ a {
 main {
 	.doc {
 		max-width: 60em;
-		margin-left: 2em;
+		margin-left: 1.5em;
 		min-height: 25em;
-		.goals li {
-			list-style: none;
+		ul {
+			padding-left: .25em;
+			li {
+				list-style: none;
+			}
 		}
 	}
 	

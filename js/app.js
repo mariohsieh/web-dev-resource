@@ -1,9 +1,10 @@
 angular.module("webDevResourceApp", [
-	"ui.router",
+	"ngSanitize",
 	"ngAnimate",
 	"allControllers",
 	"allFactories",
-	"allDirectives"
+	"allDirectives",
+	"ui.router"
 	])
 
 	// configure routes
@@ -41,7 +42,6 @@ angular.module("webDevResourceApp", [
 			})
 			.state('faq', {
 				url: '/faq',
-				template: "Coming Soon"
-				//templateUrl: 'views/faq.html'
+				templateUrl: 'views/faq.html'
 			});						
 	}]);

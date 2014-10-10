@@ -1,26 +1,14 @@
 <h1 class="doc_title">Glossary</h1>
 
 <div class="doc">
-	<section class="overview">
-		<h1>Overview</h1>
-		<ul>
-			<li>
-				<p>A collection of common web development terminology with definitions and explanations.</p>
-			</li>
-			<br>
-	</section>
-	<section class="goals">
-		<!--<h1></h1>-->
-		<blockquote>
-			<ul>
-				<li ng-repeat="gloss in glossary">
-					<h3>{{gloss.term}}</h3>
-					<blockquote>
-						<p>{{gloss.def}}</p>	
-					</blockquote>				
-				</li>
-			</ul>		
-		</blockquote>
-		<br>
-	</section>
+	<br>
+	<ul>
+		<li ng-repeat="gloss in glossary">
+			<h3>{{gloss.term}}</h3>
+			<blockquote>
+				<p ng-bind-html="gloss.def">{{gloss.def}}</p>	
+			</blockquote>				
+		</li>
+	</ul>
+	<br>
 </doc>
