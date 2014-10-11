@@ -2,8 +2,9 @@ angular.module("webDevResourceApp", [
 	"ngSanitize",
 	"ngAnimate",
 	"allControllers",
-	"allFactories",
-	"allDirectives",
+	"allDirectives",	
+	"factoryGlossary",
+	"factoryFaq",
 	"ui.router"
 	])
 
@@ -42,6 +43,9 @@ angular.module("webDevResourceApp", [
 			})
 			.state('faq', {
 				url: '/faq',
+				controller: function($scope, FAQ) {
+						$scope.faq = FAQ;
+				},
 				templateUrl: 'views/faq.html'
 			});						
 	}]);

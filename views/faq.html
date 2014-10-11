@@ -1,1 +1,14 @@
 <h1 class="doc_title">Frequently Asked Questions</h1>
+
+<div class="doc">
+	<br>
+	<ul>
+		<li ng-repeat="item in faq">
+			<h3>{{item.question}}</h3>
+			<blockquote>
+				<p ng-bind-html="item.answer">{{item.answer}}</p>	
+			</blockquote>				
+		</li>
+	</ul>
+	<br>
+</doc>
