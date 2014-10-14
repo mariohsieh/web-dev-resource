@@ -73,6 +73,8 @@ main .doc {
     padding-left: .25em; }
     main .doc ul li {
       list-style: none; }
+  main .doc .glossary span {
+    color: red; }
 
 @keyframes fadeIn {
   from {

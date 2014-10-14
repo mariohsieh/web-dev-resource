@@ -17,8 +17,11 @@ angular.module("factoryFaq", [])
 				question: "Is a text editor and a word processor the same thing?",
 				answer:		"No, will explain later."
 			},{
-				question: "My application is running on my localhost, how can I make it available online?",
+				question: "My application is running locally on my laptop, how can I make it available online?",
 				answer:		"Deployment"
+			},{
+				question: "What is the difference between Java and JavaScript?",
+				answer:		"They are completely different."
 			}
 			
 		];

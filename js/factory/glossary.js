@@ -14,11 +14,11 @@ angular.module("factoryGlossary", [])
 				tags: ["application", "web", "app"]
 			},{
 				term: "mobile application",
-				def:	"An application developed specifically to run on a smartphone, tablet, or smartwatch.",
+				def:	"A software program developed specifically to run on a smartphone, tablet, or smartwatch.",
 				tags: ["mobile", "application", "app"]
 			},{
 				term: "text editor",
-				def:	"A program to write and edit plain text files.&nbsp;&nbsp;atom.io and sublime are popular text editors used in the tech industry.",
+				def:	"A program to write and edit plain text files.&nbsp;&nbsp;<a target='_blank' href='https://atom.io/'>atom.io</a> and <a target='_blank' href='http://www.sublimetext.com/'>sublime</a> are popular text editors used in the tech industry.",
 				tags: ["text", "editor"]
 			},{
 				term: "terminal",
@@ -30,19 +30,19 @@ angular.module("factoryGlossary", [])
 				tags: ["version control", "revision control", "source control", "git", "cvs", "svn"]
 			},{				
 				term: "database",
-				def:	"An organized collection of data",
+				def:	"An organized collection of data, databases are used by many web applications to store information online.",
 				tags: ["db", "database"]
 			},{				
 				term: "open source",
-				def:	"Open source software is available to the public.&nbsp;&nbsp;Anyone is free to modify the code as they see fit.",
+				def:	"Open source is the idea of universal access available to the public.&nbsp;&nbsp;In terms of software, anyone is free to modify the code as they see fit.",
 				tags: ["open source"]
 			},{				
 				term: "HTML",
-				def:	"Hypertext Markup Language",
+				def:	"<span>H</span>yper<span>T</span>ext <span>M</span>arkup <span>L</span>anguage is the markup language for webpages.&nbsp&nbsp;HTML elements are the building blocks of all websites and web applications.&nbsp;&nbsp;The current version of HTML is 5.0, often styled as HTML5.",
 				tags: ["html", "html5", "hypertext", "markup", "language"]
 			},{				
 				term: "CSS",
-				def:	"Cascading Style Sheets",
+				def:	"<span>C</span>ascading <span>S</span>tyle <span>S</span>heets are used to change the display properties of HTML or XHTML markup.&nbsp;&nbsp;Almost all websites and web applications use CSS to style their content.&nbsp;&nbsp;The current version of CSS is 3.0",
 				tags: ["css", "cascading", "style", "sheets"]
 			},{
 				term: "MVC",
@@ -50,11 +50,11 @@ angular.module("factoryGlossary", [])
 				tags: ["model", "view", "controller", "framework"]
 			},{				
 				term: "Ruby",
-				def:	"A programming language.",
+				def:	"A programming language developed by Yukihiro 'Matz' Matsumoto, ruby is most famous for the MVC framework 'Ruby on Rails'.",
 				tags: ["ruby"]
 			},{
 				term: "Ruby on Rails",
-				def:	"A MVC framework built on the Ruby programming language",
+				def:	"A full-stack MVC framework built on the Ruby programming language, Ruby on Rails is one of the most popular web application frameworks in use today.",
 				tags: ["ruby", "ror", "rails", "mvc"]
 			},{
 				term: "JavaScript",
@@ -66,7 +66,7 @@ angular.module("factoryGlossary", [])
 				tags: ["xml", "extensible", "markup", "language"]
 			},{				
 				term: "JSON",
-				def:	"JavaScript Object Notation",
+				def:	"<span>J</span>ava<span>S</span>cript <span>O</span>bject <span>N</span>otation is a popular language-independent data format.&nbsp;&nbsp;AJAX development often uses JSON objects for data transfer.",
 				tags: ["json", "javascript"]
 			},{
 				term: "AJAX",
@@ -74,8 +74,12 @@ angular.module("factoryGlossary", [])
 				tags: ["ajax", "ajaj", "asynchronous", "javascript", "xml"]
 			},{				
 				term: "API",
-				def:	"Application Programming Interface",
+				def:	"<span>A</span>pplication <span>P</span>rogramming <span>I</span>nterface",
 				tags: ["api", "application", "programming", "interface"]
+			},{				
+				term: "IDE",
+				def:	"An <span>I</span>ntegrated <span>D</span>evelopment <span>E</span>nvironment",
+				tags: ["integrated", "interactive", "development", "environment"]
 			}
 			
 		];
