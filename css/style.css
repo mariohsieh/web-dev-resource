@@ -76,11 +76,12 @@ main .doc {
   main .doc .glossary span {
     color: red; }
   main .doc .faq span {
-    width: 26px;
     transition: all .5s; }
   main .doc .faq .rotate90 {
     color: red;
-    transform: rotate(90deg); }
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg); }
 
 @keyframes fadeIn {
   from {
