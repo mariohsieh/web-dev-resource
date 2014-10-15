@@ -66,8 +66,19 @@ main {
 				color: red;
 			}
 		}
+		.faq {
+			span {
+				width: 26px;
+				transition: all .5s;
+			}		
+			.rotate90 {
+				color: red;
+				transform: rotate(90deg);
+				//-webkit-transform: rotate(90deg);
+				//-moz-transform: scale(1.5) rotate(90deg);
+			}
+		}
 	}
-	
 }
 
 

@@ -80,6 +80,10 @@ angular.module("factoryGlossary", [])
 				term: "IDE",
 				def:	"An <span>I</span>ntegrated <span>D</span>evelopment <span>E</span>nvironment",
 				tags: ["integrated", "interactive", "development", "environment"]
+			},{				
+				term: "CRUD",
+				def:	"An acronym for <span>C</span>reate, <span>R</span>ead, <span>U</span>pdate, <span>D</span>elete...",
+				tags: ["create","read", "update", "delete"]
 			}
 			
 		];

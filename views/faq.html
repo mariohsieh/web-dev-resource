@@ -2,10 +2,13 @@
 
 <div class="doc">
 	<br>
-	<ul>
+	<ul class="faq">
 		<li ng-repeat="item in faq">
-			<h3>{{item.question}}</h3>
-			<blockquote>
+			<h3 id="{{$index + 1}}" class="pointer" ng-click="showAnswer($index+1)">
+				<span ng-class="{rotate90: currentQ == ($index+1)}">&gt;</span>
+				&nbsp;{{item.question}}
+			</h3>
+			<blockquote ng-show="currentQ == ($index+1)">
 				<p ng-bind-html="item.answer">{{item.answer}}</p>	
 			</blockquote>				
 		</li>

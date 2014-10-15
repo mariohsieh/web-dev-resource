@@ -45,6 +45,16 @@ angular.module("webDevResourceApp", [
 				url: '/faq',
 				controller: function($scope, FAQ) {
 						$scope.faq = FAQ;
+						console.log($scope.faq[0]);
+						
+						$scope.showAnswer = function(id) {
+							/*
+								if ($scope.alpha == true)
+									$scope.alpha = false;
+								else $scope.alpha = true;
+							*/
+							$scope.currentQ = id;
+						}
 				},
 				templateUrl: 'views/faq.html'
 			});						

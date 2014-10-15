@@ -21,7 +21,7 @@ angular.module("factoryFaq", [])
 				answer:		"Deployment"
 			},{
 				question: "What is the difference between Java and JavaScript?",
-				answer:		"They are completely different."
+				answer:		"They are both programming languages that share some common syntax but that is where the similarities end."
 			}
 			
 		];
