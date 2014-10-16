@@ -36,16 +36,7 @@ a {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 30px !important;
-}
-
-.toc > ul {
 	margin-top: 16px;
-	
-	position: -moz-sticky;
-	position: -o-sticky;
-	position: -webkit-sticky;
-	position: sticky;
-	top: 30px !important;
 }
 
 
@@ -55,10 +46,15 @@ main {
 		max-width: 60em;
 		margin-left: 1.5em;
 		min-height: 25em;
+		p, h3 {
+			margin: 0;
+		}
 		ul {
 			padding-left: .25em;
+			margin: 0;
 			li {
 				list-style: none;
+				margin-bottom: 1.5em;
 			}
 		}
 		.glossary {
@@ -80,7 +76,7 @@ main {
 		.commands {
 			width: 100%;
 			thead tr {
-				font-size: 1.2em;
+				font-size: 1.3em;
 				th {
 					background-color: #6C266F;
 					color: #fff;
@@ -90,16 +86,14 @@ main {
 				td {
 					vertical-align: top;
 					padding: 5px;
-					p, code {
+					p, .code {
 						padding: 3px 5px;
+						//font-weight: bold;
+						font-size: 1.2em;
 					}
-					code {
-						display: block;
+					.code {
 						background-color: #000;
 						color: #fff;
-					}
-					p {
-						margin: 0;
 					}
 				}
 			}

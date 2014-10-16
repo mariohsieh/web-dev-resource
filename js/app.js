@@ -57,7 +57,6 @@ angular.module("webDevResourceApp", [
 				url: '/faq',
 				controller: function($scope, FAQ) {
 						$scope.faq = FAQ;
-						//console.log($scope.faq[0]);
 						
 						$scope.showAnswer = function(id) {
 							if ($scope.currentQ == id)

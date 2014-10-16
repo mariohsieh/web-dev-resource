@@ -12,8 +12,8 @@
 		</thead>
 		<tbody>
 			<tr ng-repeat="item in data">
-				<td><code>{{item.command}}</code></td>
-				<td><code class="block" ng-repeat="ex in item.example">{{ex}}</code></td>
+				<td><p class="code">{{item.command}}</p></td>
+				<td><p class="code block" ng-repeat="ex in item.example">{{ex}}</p></td>
 				<td><p ng-repeat="act in item.action">{{act}}</p></td>
 			</tr>
 		</tbody>

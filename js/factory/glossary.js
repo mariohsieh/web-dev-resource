@@ -86,7 +86,7 @@ angular.module("factoryGlossary", [])
 				tags: ["create","read", "update", "delete"]
 			},{				
 				term: "TDD",
-				def:	"<span>T</spanest <span>D</span>riven <span>D</span>evelopment",
+				def:	"<span>T</span>est <span>D</span>riven <span>D</span>evelopment",
 				tags: ["test", "driven", "development"]
 			}
 			
