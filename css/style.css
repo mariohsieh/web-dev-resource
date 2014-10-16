@@ -82,23 +82,23 @@ main .doc {
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg); }
-  main .doc .terminal {
+  main .doc .commands {
     width: 100%; }
-    main .doc .terminal thead tr {
+    main .doc .commands thead tr {
       font-size: 1.2em; }
-      main .doc .terminal thead tr th {
+      main .doc .commands thead tr th {
         background-color: #6C266F;
         color: #fff; }
-    main .doc .terminal tbody td {
+    main .doc .commands tbody td {
       vertical-align: top;
       padding: 5px; }
-      main .doc .terminal tbody td p, main .doc .terminal tbody td code {
+      main .doc .commands tbody td p, main .doc .commands tbody td code {
         padding: 3px 5px; }
-      main .doc .terminal tbody td code {
+      main .doc .commands tbody td code {
         display: block;
         background-color: #000;
         color: #fff; }
-      main .doc .terminal tbody td p {
+      main .doc .commands tbody td p {
         margin: 0; }
 
 @keyframes fadeIn {

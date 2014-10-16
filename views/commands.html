@@ -1,0 +1,22 @@
+<h1 class="doc_title">Git</h1>
+
+<div class="doc">
+	<br>
+	<table class="commands">
+		<thead>
+			<tr>
+				<th>Command</th>
+				<th>Example</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="item in data">
+				<td><code>{{item.command}}</code></td>
+				<td><code class="block" ng-repeat="ex in item.example">{{ex}}</code></td>
+				<td><p ng-repeat="act in item.action">{{act}}</p></td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+</doc>

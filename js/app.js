@@ -6,6 +6,7 @@ angular.module("webDevResourceApp", [
 	"factoryGlossary",
 	"factoryFaq",
 	"factoryTerminal",
+	"factoryGit",
 	"ui.router"
 	])
 
@@ -29,13 +30,16 @@ angular.module("webDevResourceApp", [
 			.state('terminal', {
 				url: '/terminal',
 				controller: function($scope, Terminal) {
-					$scope.terminal = Terminal;
+					$scope.data = Terminal;
 				},
-				templateUrl: 'views/terminal.html'
+				templateUrl: 'views/commands.html'
 			})
 			.state('git', {
 				url: '/git',
-				templateUrl: 'views/git.html'
+				controller: function($scope, Git) {
+					$scope.data = Git;
+				},
+				templateUrl: 'views/commands.html'
 			})
 			.state('programming', {
 				url: '/programming',
