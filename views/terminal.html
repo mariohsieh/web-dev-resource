@@ -1,1 +1,22 @@
 <h1 class="doc_title">Terminal</h1>
+
+<div class="doc">
+	<br>
+	<table class="terminal">
+		<thead>
+			<tr>
+				<th>Command</th>
+				<th>Example</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="term in terminal">
+				<td><code>{{term.command}}</code></td>
+				<td><code class="block" ng-repeat="ex in term.example">{{ex}}</code></td>
+				<td><p ng-repeat="act in term.action">{{act}}</p></td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+</doc>

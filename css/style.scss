@@ -77,6 +77,33 @@ main {
 				-moz-transform: rotate(90deg);
 			}
 		}
+		.terminal {
+			width: 100%;
+			thead tr {
+				font-size: 1.2em;
+				th {
+					background-color: #6C266F;
+					color: #fff;
+				}
+			}
+			tbody {
+				td {
+					vertical-align: top;
+					padding: 5px;
+					p, code {
+						padding: 3px 5px;
+					}
+					code {
+						display: block;
+						background-color: #000;
+						color: #fff;
+					}
+					p {
+						margin: 0;
+					}
+				}
+			}
+		}
 	}
 }
 

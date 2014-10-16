@@ -18,12 +18,19 @@ angular.module("allDirectives", [])
 					title: "Git",
 					state: "git"
 				},{
+					title: "Programming",
+					state: "programming"
+				}
+/*
+				,{
 					title: "Ruby",
 					state: "ruby"
 				},{
 					title: "JavaScript",
 					state: "javascript"
-				},{
+				}
+*/
+				,{
 					title: "FAQ",
 					state: "faq"
 				}

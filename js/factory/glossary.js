@@ -84,6 +84,10 @@ angular.module("factoryGlossary", [])
 				term: "CRUD",
 				def:	"An acronym for <span>C</span>reate, <span>R</span>ead, <span>U</span>pdate, <span>D</span>elete...",
 				tags: ["create","read", "update", "delete"]
+			},{				
+				term: "TDD",
+				def:	"<span>T</spanest <span>D</span>riven <span>D</span>evelopment",
+				tags: ["test", "driven", "development"]
 			}
 			
 		];
