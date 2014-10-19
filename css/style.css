@@ -72,19 +72,12 @@ main .doc {
       margin-bottom: 1.5em; }
   main .doc .glossary span {
     color: red; }
-  main .doc .faq span {
-    transition: all .5s; }
-  main .doc .faq .rotate90 {
-    color: red;
-    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg); }
   main .doc .commands {
     width: 100%; }
     main .doc .commands thead tr {
       font-size: 1.3em; }
       main .doc .commands thead tr th {
-        background-color: #6C266F;
+        background-color: #6c266f;
         color: #fff; }
     main .doc .commands tbody td {
       vertical-align: top;
@@ -95,6 +88,15 @@ main .doc {
       main .doc .commands tbody td .code {
         background-color: #000;
         color: #fff; }
+  main .doc .faq li h3:hover, main .doc .faq li .active {
+    color: #6c266f; }
+  main .doc .faq li span {
+    color: #2493b8;
+    transition: all .5s; }
+  main .doc .faq li .rotate90 {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg); }
 
 @keyframes fadeIn {
   from {

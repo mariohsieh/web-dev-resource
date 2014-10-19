@@ -1,6 +1,11 @@
 // imports
 @import "global";
 
+
+//// variables ////
+$purple : #6C266F;
+$teal : 	#2493B8;
+
 //// global doc tag styles ////
 a {
 	color: rgb(0,0,238);
@@ -62,23 +67,12 @@ main {
 				color: red;
 			}
 		}
-		.faq {
-			span {
-				transition: all .5s;
-			}		
-			.rotate90 {
-				color: red;
-				transform: rotate(90deg);
-				-webkit-transform: rotate(90deg);
-				-moz-transform: rotate(90deg);
-			}
-		}
 		.commands {
 			width: 100%;
 			thead tr {
 				font-size: 1.3em;
 				th {
-					background-color: #6C266F;
+					background-color: $purple;
 					color: #fff;
 				}
 			}
@@ -98,6 +92,22 @@ main {
 				}
 			}
 		}
+		.faq {
+			li {
+				h3:hover, .active {
+					color: $purple;
+				}
+				span {
+					color: $teal;
+					transition: all .5s;
+				}		
+				.rotate90 {
+					transform: rotate(90deg);
+					-webkit-transform: rotate(90deg);
+					-moz-transform: rotate(90deg);
+				}
+			}	
+		}		
 	}
 }
 
