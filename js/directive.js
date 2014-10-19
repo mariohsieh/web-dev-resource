@@ -35,7 +35,7 @@ angular.module("allDirectives", [])
 					state: "faq"
 				}
 			];
-			
+
 		}
 		
 		return {
