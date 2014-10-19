@@ -94,17 +94,28 @@ main {
 		}
 		.faq {
 			li {
+				* {
+					transition: all .25s ease-out;
+				}
 				h3:hover, .active {
 					color: $purple;
 				}
 				span {
 					color: $teal;
-					transition: all .5s;
 				}		
 				.rotate90 {
 					transform: rotate(90deg);
 					-webkit-transform: rotate(90deg);
 					-moz-transform: rotate(90deg);
+				}
+				blockquote {
+					padding-left: 10px;
+					height: 0;
+					opacity: 0;
+				}
+				.showAnswer {
+					height: 50px;
+					opacity: 1.0;				
 				}
 			}	
 		}		

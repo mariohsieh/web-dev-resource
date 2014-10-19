@@ -88,15 +88,23 @@ main .doc {
       main .doc .commands tbody td .code {
         background-color: #000;
         color: #fff; }
+  main .doc .faq li * {
+    transition: all .25s ease-out; }
   main .doc .faq li h3:hover, main .doc .faq li .active {
     color: #6c266f; }
   main .doc .faq li span {
-    color: #2493b8;
-    transition: all .5s; }
+    color: #2493b8; }
   main .doc .faq li .rotate90 {
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg); }
+  main .doc .faq li blockquote {
+    padding-left: 10px;
+    height: 0;
+    opacity: 0; }
+  main .doc .faq li .showAnswer {
+    height: 50px;
+    opacity: 1.0; }
 
 @keyframes fadeIn {
   from {

@@ -8,7 +8,7 @@
 				<span class="inlineBlock" ng-class="{rotate90: currentQ == ($index+1)}">&gt;</span>
 				&nbsp;{{item.question}}
 			</h3>
-			<blockquote ng-show="currentQ == ($index+1)">
+			<blockquote ng-show="currentQ == ($index+1)" ng-class="{showAnswer: currentQ == ($index+1)}">
 				<p ng-bind-html="item.answer">{{item.answer}}</p>	
 			</blockquote>				
 		</li>
