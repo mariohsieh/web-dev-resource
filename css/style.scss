@@ -109,12 +109,13 @@ main {
 					-moz-transform: rotate(90deg);
 				}
 				blockquote {
-					padding-left: 10px;
+					margin-bottom: .75em;
+					padding: .3em .5em;
 					height: 0;
 					opacity: 0;
 				}
 				.showAnswer {
-					height: 50px;
+					height: 3em;
 					opacity: 1.0;				
 				}
 			}	
