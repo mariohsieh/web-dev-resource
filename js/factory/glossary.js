@@ -46,20 +46,20 @@ angular.module("factoryGlossary", [])
 				tags: ["css", "cascading", "style", "sheets"]
 			},{
 				term: "MVC",
-				def:	"<span>M</span>odel-<span>V</span>iew-<span>C</span>ontroller",
-				tags: ["model", "view", "controller", "framework"]
+				def:	"<span>M</span>odel-<span>V</span>iew-<span>C</span>ontroller is an architectural pattern for user interfaces.&nbsp;&nbsp;",
+				tags: ["mvc", "model", "view", "controller", "framework"]
 			},{				
 				term: "Ruby",
 				def:	"A programming language developed by Yukihiro 'Matz' Matsumoto, ruby is most famous for the MVC framework 'Ruby on Rails'.",
-				tags: ["ruby"]
+				tags: ["ruby", "programming"]
 			},{
 				term: "Ruby on Rails",
 				def:	"A full-stack MVC framework built on the Ruby programming language, Ruby on Rails is one of the most popular web application frameworks in use today.",
-				tags: ["ruby", "ror", "rails", "mvc"]
+				tags: ["ruby", "on", "rails", "ror", "mvc"]
 			},{
 				term: "JavaScript",
 				def:	"Considered the 'programming language of the web', JavaScript is the most popular client-side scripting language.&nbsp&nbsp;",
-				tags: ["javascript","js"]
+				tags: ["javascript","js", "programming"]
 			},{				
 				term: "XML",
 				def:	"e<span>X</span>tensible <span>M</span>arkup <span>L</span>anguage",
