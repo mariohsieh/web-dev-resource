@@ -78,15 +78,15 @@ angular.module("factoryGlossary", [])
 				tags: ["api", "application", "programming", "interface"]
 			},{				
 				term: "IDE",
-				def:	"An <span>I</span>ntegrated <span>D</span>evelopment <span>E</span>nvironment",
+				def:	"An <span>I</span>ntegrated <span>D</span>evelopment <span>E</span>nvironment is a software program that provides tools to write code.&nbsp;&nbsp;Usually consisting of a text editor, build automation tools and a debugger, many programmers use IDE's to improve productivity.",
 				tags: ["integrated", "interactive", "development", "environment"]
 			},{				
 				term: "CRUD",
-				def:	"An acronym for <span>C</span>reate, <span>R</span>ead, <span>U</span>pdate, <span>D</span>elete...",
+				def:	"An acronym for <span>C</span>reate, <span>R</span>ead, <span>U</span>pdate, <span>D</span>elete, CRUD represents the four basic functions of interacting with information (usually in a database).",
 				tags: ["create","read", "update", "delete"]
 			},{				
 				term: "TDD",
-				def:	"<span>T</span>est <span>D</span>riven <span>D</span>evelopment",
+				def:	"<span>T</span>est <span>D</span>riven <span>D</span>evelopment is a software development process based on simple designs and high repetition of short development cycles.&nbsp;&nbsp;A typical cycle comes in three phases: write a failing test case, write code to pass test, refactor for optimization.",
 				tags: ["test", "driven", "development"]
 			}
 			
