@@ -1,8 +1,0 @@
-{
-	"name" : "web-dev-terms",
-	"version" : "0.1",
-	"dependencies" : {
-		"angular" : "latest",
-		"angular-ui-router" : "latest"
-	}
-}
